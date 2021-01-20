@@ -1,5 +1,6 @@
 # Spot The wine
-# Link :  https://vinod-git12.github.io
+# Link :  https://github.com/vinod-git12/Spot-The-Wine
+
 # Project Overview 
 ## Project Name
 Spot The Wine
