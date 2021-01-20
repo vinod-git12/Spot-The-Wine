@@ -1,0 +1,79 @@
+# Spot The wine
+# Link :  https://vinod-git12.github.io
+# Project Overview 
+## Project Name
+Spot The Wine
+
+## Project Description
+"Spot The Wine" is an "Airtable & React" base application which will allow users to learn and explore more about Wines. This application also allows user to add their favorite wines for the future references.
+
+
+## Airtable Data Sample
+https://airtable.com/tblAblPOH15f8vJMG/viwARK1wPOLxrX3Ig?blocks=hide
+Code Snippet: 
+```javascript
+  {
+    "records": [
+        {
+            "id": "recLbBcLo1QjWCIVd",
+            "fields": {
+                "name": "Caymus",
+                "description": "https://www.caymus.com/",
+                "image": "https://cdn.shopify.com/s/files/1/1580/4729/products/caymus-cabernet-sauvignon-napa-valley_52cb9d7b-c37d-49de-99da-eb6a8ca89586.gif?v=1576196473",
+                "varietal": "Cabernet Sauvignon",
+                "price": 89
+            },
+            "createdTime": "2021-01-20T10:36:51.000Z"
+        },
+        {
+            "id": "recW8MFHCOcmvolYa",
+            "fields": {
+                "name": "Prisoner",
+                "description": "https://theprisonerwinecompany.com/",
+                "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.totalwine.com%2Fwine%2Fred-wine%2Fzinfandel%2Fthe-prisoner-red-blend%2Fp%2F19360750&psig=AOvVaw1...",
+                "varietal": "Red Blend",
+                "price": 49
+            },
+```
+## Wireframes
+
+![Wireframe Mock-up](https://i.imgur.com/mFpCXLJ.jpg)
+![Wireframe Mock-up](https://i.imgur.com/WRbl6f5.jpg)
+![Wireframe Mock-up](https://i.imgur.com/lTjRseS.jpg)
+
+
+## MVP
+
+- Set up & import Airtable Database
+- Impliment React Router & app structure
+- Build out Home Page with Images(Link) of wines
+- Build out Link & Routes 
+- Build out NavBar 
+- Build out AddWine component
+- Build out Footer
+- Style with CSS
+
+## Post MVP
+
+
+- Add a "Drop-Down" list of All wine varietals
+- Add a "Search Bar" which gives user wide range to search for thier favorite wines.
+
+## Project Schedule
+
+![Project Schedule](https://i.imgur.com/8C7Xznc.jpg)
+
+
+## Timeframes
+
+![Time Frame]()
+
+
+
+
+
+
+
+
+
+
