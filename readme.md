@@ -66,7 +66,7 @@ Code Snippet:
 
 ## Timeframes
 
-![Time Frame]()
+![Time Frame](https://i.imgur.com/tbUOmkq.jpg)
 
 
 
