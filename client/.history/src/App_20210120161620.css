@@ -1,0 +1,17 @@
+.app {
+  display: flex;
+  height: 20%
+}
+
+.title {
+  text-align: center;
+  background-color: rgb(174, 212, 245);
+  
+}
+
+.wineImg {
+
+  width: 25%;
+  height: 30%;
+  
+}

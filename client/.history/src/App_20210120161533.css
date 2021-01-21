@@ -1,0 +1,16 @@
+.app {
+  display: flex;
+  height: 20%
+
+}
+
+.title {
+  text-align: center;
+}
+
+.wineImg {
+
+  width: 25%;
+  height: 30%;
+  
+}

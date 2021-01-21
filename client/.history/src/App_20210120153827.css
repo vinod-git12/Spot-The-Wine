@@ -1,0 +1,11 @@
+.app {
+  display: flex;
+  height: 20
+}
+
+.wineImg {
+
+  width: 25%;
+  height: 30%;
+  
+}
