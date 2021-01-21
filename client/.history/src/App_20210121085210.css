@@ -1,12 +1,14 @@
 .app {
-  display: inline;
-  height: 100%
+  display: flex;
+  height: 20%
 }
 
 .red {
-  display: block;
-  background-image: url"https://img4.goodfon.com/wallpaper/nbig/9/c1/bochka-bokaly-butylka-vino-krasnoe-vinograd-probki-listia-fo.jpg";
-  margin: 10px;
+  display: grid | inline-grid;
+flex-direction: row-reverse;
+justify-content: flex-end;
+background-color: rgb(129, 209, 233);
+margin: 10px;
 
 }
 

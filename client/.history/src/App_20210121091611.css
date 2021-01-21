@@ -4,7 +4,7 @@
 }
 
 .red {
-  display: block;
+  display: grid | inline-grid;
   background-image: url"https://img4.goodfon.com/wallpaper/nbig/9/c1/bochka-bokaly-butylka-vino-krasnoe-vinograd-probki-listia-fo.jpg";
   margin: 10px;
 
