@@ -52,7 +52,7 @@ function Form(props) {
         type="number"
         name="price"
         value={price}
-        onChange={(e) => setPrice(e.target.valueAsNumber)}
+        onChange={(e) => setPrice(e.target.valueas)}
       />
       <label htmlFor="description">Description: </label>
       <input 

@@ -7,7 +7,7 @@ function Form(props) {
   const [name, setName] = useState("")
   const [varietal, setVarietal] = useState("")
   const [image, setImage] = useState("")
-  const [price, setPrice] = useState(0)
+  const [price, setPrice] = useState("")
   const [description, setDescription] = useState("")
 
   const handleSubmit = async (e) => {
@@ -52,7 +52,7 @@ function Form(props) {
         type="number"
         name="price"
         value={price}
-        onChange={(e) => setPrice(e.target.valueAsNumber)}
+        onChange={(e) => setPrice(e.target.value)}
       />
       <label htmlFor="description">Description: </label>
       <input 
