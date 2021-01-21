@@ -1,0 +1,30 @@
+.App {
+  height: 100%;
+  background-image: url("""
+}
+
+.wineCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: red;
+   margin: 40px;
+
+}
+
+.title {
+  display: flex;
+  /* text-align: center; */
+  justify-content: space-around;
+  background-color: rgb(248, 240, 217);
+  color:rgb(165, 95, 3);
+  margin: auto;
+  height: 40px;
+
+}
+
+.wineImg {
+
+  width: 50px;
+  height: 70px;
+  
+}
