@@ -9,25 +9,25 @@ function Show(props) {
     
   })
   console.log(wine)
-
   if (!wine) {
     return <p> Loading ...</p>;
-  } else {
-    return (
-      <div className="image">
-        <img src={wine.fields.image} alt={wine.name} />
-        <h2>{wine.fields.name}</h2>
-        <h2>{wine.fields.varietal}</h2>
-        <h3>{wine.fields.price}</h3>
+    
+  }
+
+  return (
+    <div className="image">
+      <img src={wine.fields.image} alt={wine.name} />
+      <h2>{wine.fields.name}</h2>
+      <h2>{wine.fields.varietal}</h2>
+      <h3>{wine.fields.price}</h3>
       
-        <a href={wine.fields.description} target="_blank">
-          <button>
-            Read More
+      <a href={wine.fields.description} target="_blank">
+      <button>
+          Read More
           </button>
         </a>
       
-      </div>
-    )
-  }
+       </div>
+  )
 }
 export default Show;

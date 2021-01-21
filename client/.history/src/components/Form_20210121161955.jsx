@@ -32,7 +32,7 @@ function Form(props) {
         name="name"
         value={name}
         onChange={(e) => setName(e.target.value)}
-      /><br></br>
+      /><br>
       <label htmlFor="varietal">Varietal: </label>
       <input 
         type="text"

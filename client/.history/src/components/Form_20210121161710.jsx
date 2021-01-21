@@ -24,7 +24,7 @@ function Form(props) {
   }
 
   return (
-    <form className="form" onSubmit={handleSubmit}>
+    <form className=onSubmit={handleSubmit}>
       <h3>Add Your Favorite Wine</h3>
       <label htmlFor="name">Name: </label>
       <input 
@@ -32,7 +32,7 @@ function Form(props) {
         name="name"
         value={name}
         onChange={(e) => setName(e.target.value)}
-      /><br></br>
+      />
       <label htmlFor="varietal">Varietal: </label>
       <input 
         type="text"

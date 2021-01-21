@@ -12,7 +12,7 @@ function Home(props) {
       <div className="wineCard">
         {
           props.images.map((imag) => (
-            <Link  to={`/images/${imag.id}`}>
+            <Link  to={`/images/${imag.}`}>
               <img className="wineImg" src={imag.fields.image} alt={imag.name} />
             </Link>))
         }
