@@ -1,0 +1,76 @@
+.App {
+  height: 100%;
+  
+}
+
+.form {
+  width: 100%;
+  min-width: 100%;
+  margin: 20px auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://winecountrytable.com/wp-content/uploads/2017/04/Jordan-Winery-Charcuterie-Board-Wine-Pairing-BLOG-1219-1600x950.jpg");
+  background-size: auto;
+  
+  
+}
+
+form label, form input {
+  margin: 5px;
+  font-family: "Montserrat";
+  width: 35vw;
+  height: 3vw;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: rgb(55, 197, 233);
+}
+form label {
+color: rgba(137, 43, 226, 0.959) ;
+font-size: 20px;
+font-family: 'Courier New', Courier, monospace;
+font-weight
+}
+
+form button {
+
+  width: 25vw;
+  border-radius: 7px;
+  margin-top: 10px;
+  font-size:20px;
+  color: rgba(59, 8, 245, 0.823);
+  background-color: rgba(75, 247, 244, 0.905);
+
+}
+
+.wineCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+   margin: 40px;
+
+}
+
+.title {
+  display: flex;
+  /* text-align: center; */
+  justify-content: space-around;
+  background-color: rgb(246, 195, 93);
+  color:rgba(187, 107, 2, 0.952);
+  margin: auto;
+  height: 40px;
+
+}
+
+.wineImg {
+
+  width: 80px;
+  height: 100px;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}

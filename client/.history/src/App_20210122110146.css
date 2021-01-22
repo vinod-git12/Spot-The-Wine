@@ -1,0 +1,62 @@
+.App {
+  height: 100%;
+  
+}
+
+.form {
+  width: 50vw;
+  min-width: 275px;
+  margin: 20px auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://images.unsplash.com/photo-1593535388526-a6b8556c5351?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80) opacity ;
+}
+
+form label, form input {
+  margin: 5px 0;
+  font-family: "Montserrat";
+  width: 35vw;
+  box-sizing: border-box;
+}
+
+form button {
+
+  width: 25vw;
+  border-radius: 7px;
+  margin-top: 10px;
+  font-size: large;
+
+}
+
+.wineCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+   margin: 40px;
+
+}
+
+.title {
+  display: flex;
+  /* text-align: center; */
+  justify-content: space-around;
+  background-color: rgb(246, 195, 93);
+  color:rgba(187, 107, 2, 0.952);
+  margin: auto;
+  height: 40px;
+
+}
+
+.wineImg {
+
+  width: 80px;
+  height: 100px;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}

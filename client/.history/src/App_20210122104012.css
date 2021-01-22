@@ -1,0 +1,61 @@
+.App {
+  height: 100%;
+  background-image: url("https://assets.vogue.com/photos/5ac7f41b74c4786e8ca610a8/master/pass/00-promo-image-washington-state-wine-country-guide.jpg");
+}
+
+.form {
+  width: 50vw;
+  min-width: 275px;
+  margin: 20px auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  ba
+}
+
+form label, form input {
+  margin: 5px 0;
+  font-family: "Montserrat";
+  width: 35vw;
+  box-sizing: border-box;
+}
+
+form button {
+
+  width: 25vw;
+  border-radius: 7px;
+  margin-top: 10px;
+
+}
+
+.wineCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+   margin: 40px;
+
+}
+
+.title {
+  display: flex;
+  /* text-align: center; */
+  justify-content: space-around;
+  background-color: rgb(246, 195, 93);
+  color:rgba(187, 107, 2, 0.952);
+  margin: auto;
+  height: 40px;
+
+}
+
+.wineImg {
+
+  width: 80px;
+  height: 100px;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
