@@ -32,8 +32,7 @@ form label, form input {
   color: rgb(55, 197, 233);
 }
 form label {
-  
-color:hsla(7, 97%, 38%, 0.966);
+color: rgba(3, 3, 3, 0.959) ;
 font-size: 20px;
 font-family:  'Zilla Slab', serif;
 font-weight: bold;
