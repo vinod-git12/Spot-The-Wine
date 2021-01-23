@@ -1,0 +1,86 @@
+body {
+  background-image:url(https://wallpapercave.com/wp/5C7UOVl.jpg);
+}
+
+.Img {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt0v8SoBcNAQbMvMzPs-6ApaZBOnPB132ziQ&usqp=CAU");
+  background-position: center;
+  background-size: auto;
+  height: 9;
+  margin-top: 30px;
+}
+
+.form {
+  width: 100%;
+  min-width: 100%;
+  margin: 20px auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/218/789/175/glasses-bottle-wine-wallpaper-preview.jpg");
+  background-size: auto;
+  background-position: center;
+  
+  
+}
+
+form label, form input {
+  margin-left: 280px;
+  font-family: "Montserrat";
+  width: 35vw;
+  height: 3vw;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: rgb(55, 197, 233);
+}
+form label {
+
+color:hsla(7, 97%, 38%, 0.966);
+font-size: 20px;
+font-family:  'Zilla Slab', serif;
+font-weight: bold;
+}
+
+form button {
+
+  width: 25vw;
+  border-radius: 7px;
+  margin-top: 10px;
+  background-color: rgba(244, 250, 250, 0.905);
+  color: hsla(7, 97%, 38%, 0.966);
+  font-size: 22px;
+  font-family:  'Zilla Slab', serif;
+  font-weight: bold;
+  margin-left: 280px;
+
+}
+
+.titleForm {
+  margin-left: 290px;
+  color:hsla(7, 97%, 38%, 0.966);
+  font: large;
+  font-size: 25px;
+  font-weight: 900;
+}
+.wineCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+   margin: 40px;
+
+}
+
+/*  */
+
+.wineImg {
+
+  width: 80px;
+  height: 100px;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
