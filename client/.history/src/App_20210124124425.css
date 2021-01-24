@@ -20,7 +20,7 @@ body {
 
 .aTitle {
   display:flex;
-  justify-content: right;
+  justify-content: left`;
   font-size: 0px;
   padding: 10px;
 }

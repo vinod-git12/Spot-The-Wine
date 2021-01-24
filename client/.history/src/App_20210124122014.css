@@ -3,14 +3,15 @@ body {
 }
 
 .title {
-  
-  display:flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  /* display:flex; */
+  /* justify-content: center; */
   color:#f72b07;
   font-size: 40px;
   font-weight: 800;
   /* background-image: url("https://cdn.aveine.paris/blog/wp-content/uploads/2020/07/02131449/Quel-verre-bd-1024x683.jpg"); */
-  background-color: rgb(250, 204, 104);
+  background-color: rgb(250, 201, 96);
   background-size: cover;
   border-radius: 10px;
   margin-top: 20px;
@@ -18,10 +19,8 @@ body {
   padding:17px;
 }
 
-.aTitle {
-  display:flex;
-  justify-content: right;
-  font-size: 0px;
+.aLink {
+  font-size: 40px;
   padding: 10px;
 }
 

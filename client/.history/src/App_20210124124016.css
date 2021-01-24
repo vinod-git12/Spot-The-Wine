@@ -18,9 +18,9 @@ body {
   padding:17px;
 }
 
-.aTitle {
+.aLink {
   display:flex;
-  justify-content: right;
+  align-items: flex-end;
   font-size: 0px;
   padding: 10px;
 }

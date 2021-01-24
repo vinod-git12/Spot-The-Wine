@@ -24,13 +24,11 @@ function App() {
   return (
     <body>
       
-      <header className="title">Spot The Wine
-         <div className="aTitle">
-        <a className="aLink" href="" target="blank"><img src="https://logos-world.net/wp-content/uploads/2020/04/Linkedin-Symbol.png" height="25px" width="45px"></img></a> 
-        <a className="aLink" href="" target="blank"><img src="https://image.flaticon.com/icons/png/512/25/25231.png" height="25px" width="45px"></img></a>
-        </div>
-        </header>
-        
+      <header className="title">
+        <a classname="aLink" href="https://www.linkedin.com/in/vinodkumar201981/" target="blank"><img src="https://img.flaticon.com/icons/png/512/174/174857.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" height:></img></a>Spot The Wine
+        <a classname="aLink" href="https://github.com/vinod-git12" target="blank">Github</a>
+      </header>
+      
         <div className="App">
           <div className="Img">
             <Nav />

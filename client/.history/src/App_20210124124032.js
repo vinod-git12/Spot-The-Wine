@@ -23,14 +23,12 @@ function App() {
 
   return (
     <body>
-      
-      <header className="title">Spot The Wine
-         <div className="aTitle">
+      </hea
+      <header className="title">Spot The Wineder>
         <a className="aLink" href="" target="blank"><img src="https://logos-world.net/wp-content/uploads/2020/04/Linkedin-Symbol.png" height="25px" width="45px"></img></a> 
         <a className="aLink" href="" target="blank"><img src="https://image.flaticon.com/icons/png/512/25/25231.png" height="25px" width="45px"></img></a>
-        </div>
-        </header>
         
+      
         <div className="App">
           <div className="Img">
             <Nav />
