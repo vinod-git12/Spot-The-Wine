@@ -1,0 +1,132 @@
+body {
+  background-image:url(https://upload.wikimedia.org/wikipedia/commons/5/5e/Wine_grapes03.jpg);
+}
+
+.title {
+  display:flex;
+  justify-content: space-between;
+  color:#f72b07;
+  font-size: 40px;
+  font-weight: 800;
+  /* background-image: url("https://cdn.aveine.paris/blog/wp-content/uploads/2020/07/02131449/Quel-verre-bd-1024x683.jpg"); */
+  background-color: rgb(250, 201, 96);
+  background-size: cover;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-position: center;
+  padding:17px;
+  
+  
+}
+
+a {
+  font-size: 20px;
+  padding: 10px;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: px;
+  color:hsla(7, 97%, 38%, 0.966);
+  font-size: 20px;
+  background-color:hsla(14, 95%, 75%, 0.966);
+  margin: 5px auto;
+
+}
+
+.Img {
+  background-image: url("https://www.setaswall.com/wp-content/uploads/2017/04/Bone-Solid-Color-Background-Wallpaper-5120x2880.png");
+  background-position: center;
+  background-size: auto;
+  margin: 5px auto;
+  border: 3px solid rgb(247, 227, 142);
+  border-radius: 10px;
+
+}
+
+.wineCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+   margin: 30px;
+}
+
+.wineImg {
+  background-image: url("https://www.setaswall.com/wp-content/uploads/2017/04/Bone-Solid-Color-Background-Wallpaper-5120x2880.png");
+  background-position: center;
+  background-size: auto;
+  /* height: 700px; */
+  margin: 5px auto;
+  border: 3px solid rgb(206, 97, 8);
+  border-radius: 10px;
+  width: 140px;
+  height: 160px;
+  }
+
+.form {
+  width: 100%;
+  min-width: 100%;
+  margin: 20px auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://i0.wp.com/www.eatthis.com/wp-content/uploads/2020/01/red-wine-glass-bottle.jpg?resize=640%2C360&ssl=1");
+  background-size: auto;
+  background-position: center;
+  
+  
+}
+
+form label, form input {
+  margin-left: 350px;
+  font-family: "Montserrat";
+  width: 35vw;
+  height: 3vw;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: rgb(55, 197, 233);
+}
+form label {
+
+color:hsla(46, 92%, 49%, 0.966);
+font-size: 20px;
+font-family:  'Zilla Slab', serif;
+font-weight: bold;
+}
+
+form button {
+
+  width: 25vw;
+  border-radius: 7px;
+  margin-top: 10px;
+  background-color: rgba(244, 250, 250, 0.905);
+  color: rgba(219, 45, 22, 0.562);
+  font-size: 22px;
+  font-family:  'Zilla Slab', serif;
+  font-weight: bold;
+  margin-left: 280px;
+
+}
+
+.titleForm {
+  margin-left: 290px;
+  color:rgba(250, 52, 26, 0.959);
+  font: large;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+footer {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url("https://cdn.aveine.paris/blog/wp-content/uploads/2020/07/02131449/Quel-verre-bd-1024x683.jpg");  */
+  background-color:hsla(49, 92%, 43%, 0.966);
+  background-position: center;
+  margin-bottom: 30px;
+  height: 30px;
+  border-radius: 10px;;
+}
+
