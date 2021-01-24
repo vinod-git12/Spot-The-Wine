@@ -25,8 +25,8 @@ function App() {
     <body>
       
       <header className="title">
-        <a classname="aLink" href="" target="blank">Linkedin</a>Spot The Wine
-        <a classname="aLink" href="https://github.com/vinod-git12" target="blank">Github</a>
+        <a classname="alink" href="">Linkedin</a>Spot The Wine
+        <a classname="link" href="">Github</a>
       </header>
       
     <div className="App">

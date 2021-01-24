@@ -1,6 +1,6 @@
 body {
   background-image:url(https://wallpapercave.com/wp/5C7UOVl.jpg);
-  opacity: 1.5 ;
+  opa
 }
 
 .title {
@@ -119,7 +119,7 @@ footer {
   display:flex;
   justify-content: center;
   align-items: center;
-  background-color:hsla(0, 94%, 67%, 0.966);
+  background-color:hsla(32, 83%, 68%, 0.966);
   background-position: center;
   margin-bottom: 30px;
   height: 30px;

@@ -1,6 +1,5 @@
 body {
   background-image:url(https://wallpapercave.com/wp/5C7UOVl.jpg);
-  opacity: 1.5 ;
 }
 
 .title {
@@ -13,26 +12,27 @@ body {
   border-radius: 10px;
   margin-top: 20px;
   background-position: center;
-  padding:17px;
   
 }
 
-a {
-  font-size: 20px;
-  padding: 10px;;
+.aLink {
+  font-size: 10px;
+  padding: 10px;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
-  padding: px;
+  padding: 10px;
   color:hsla(7, 97%, 38%, 0.966);
-  font-size: 20px;
+  font-size: 10px;
   background-color:hsla(14, 95%, 75%, 0.966);
-  margin: 5px auto;
+  margin: 0px auto;
+
+  
 }
 
-/* .Img {
+.Img {
   background-image: url("https://www.setaswall.com/wp-content/uploads/2017/04/Bone-Solid-Color-Background-Wallpaper-5120x2880.png");
   background-position: center;
   background-size: auto;
@@ -41,7 +41,7 @@ nav {
   border: 3px solid rgb(247, 227, 142);
   border-radius: 10px;
   
-} */
+}
 
 .wineCard {
   display: grid;
@@ -50,15 +50,8 @@ nav {
 }
 
 .wineImg {
-  background-image: url("https://www.setaswall.com/wp-content/uploads/2017/04/Bone-Solid-Color-Background-Wallpaper-5120x2880.png");
-  background-position: center;
-  background-size: auto;
-  height: 700px;
-  margin: 5px auto;
-  border: 3px solid rgb(247, 227, 142);
-  border-radius: 10px;
-  width: 140px;
-  height: 160px;
+  width: 100px;
+  height: 120px;
   }
 
 .form {
@@ -119,7 +112,7 @@ footer {
   display:flex;
   justify-content: center;
   align-items: center;
-  background-color:hsla(0, 94%, 67%, 0.966);
+  background-color:hsla(32, 83%, 68%, 0.966);
   background-position: center;
   margin-bottom: 30px;
   height: 30px;
