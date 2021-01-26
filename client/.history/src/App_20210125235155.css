@@ -1,0 +1,166 @@
+body {
+  background-image:url(https://upload.wikimedia.org/wikipedia/commons/5/5e/Wine_grapes03.jpg);
+  /* background-image: url("https://cdn.aveine.paris/blog/wp-content/uploads/2020/07/02131449/Quel-verre-bd-1024x683.jpg"); */
+  
+}
+
+.title {
+  /* background-image: url("https://colorpalettes.net/wp-content/uploads/2019/03/cvetovaya-palitra-3983.png"); */
+  opacity: .8;
+  /* height: 2px; */
+  display:flex;
+  justify-content: center;
+  color:hsl(9, 89%, 39%);
+  font-family: 'Bebas Neue', cursive;
+  font-size: 350%;
+  font-weight: 900;
+  background-color: rgb(246, 219, 178);
+  background-size: cover;
+  border: black 10px;
+  border-radius: 10px;
+  margin: 50px 50px 0px 50px;
+  /* margin-top: 30px; */
+  background-position: center;
+  /* padding:10px; */
+  
+}
+
+/* .aLink {
+  margin: 10px;
+  padding: 15px;
+} */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px 0px 30px;
+  color:hsla(7, 77%, 30%, 0.966);
+  font-size: 23px;
+  font-weight: 900;
+  background-color:rgba(249, 147, 51, 0.945);
+  margin: 0px 50px 0px 50px;
+  border-radius: 10px;
+  opacity: .9;
+
+}
+
+.homeImg {
+  background-image: url("https://www.setaswall.com/wp-content/uploads/2017/04/Bone-Solid-Color-Background-Wallpaper-5120x2880.png");
+  background-position: center;
+  background-size: 100%;
+  margin: 0px 50px 0px 50px;
+  border: 3px solid rgb(239, 169, 108);
+  border-radius: 10px;
+  opacity: .9;
+
+}
+
+.wineCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+   margin: 80px 10px 50px 250px;
+   width: auto;
+}
+
+.wineImg {
+  background-image: url("https://lh3.googleusercontent.com/proxy/GtWouEz5HQcHjYA7qvgHOyO1hI7Hv9yEKZ9LRL21sVk_PguETvFx4N6wlDGbpK-F5_9Wc6oT2kB45tb7OoseHaOTvrHiE6cA-QfqBhBxOZ9lcKKzKG_5o_bnaifhpM8yuoWp_ClWiw");
+  background-position: center;
+  background-size: auto;
+  /* height: 100%; */
+  margin: 5px auto;
+  border: 3px solid rgb(206, 97, 8);
+  border-radius: 10px;
+  width: 250px;
+  height: 300px;
+  }
+
+  .showImage {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+   margin: 100px;
+   background-color:hsla(91, 68%, 83%, 0.966);  
+  }
+
+  .showInfo {
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px; 
+    
+  }
+
+  .showInfoButton {
+    font-size: 20px;
+    margin-right: 100px;
+    
+  }
+
+.form {
+  width: 100%;
+  min-width: 100%;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://i0.wp.com/www.eatthis.com/wp-content/uploads/2020/01/red-wine-glass-bottle.jpg?resize=640%2C360&ssl=1");
+  background-size: auto;
+  background-position: center;
+  
+  
+}
+
+form label, form input {
+  margin-left: 350px;
+  font-family: "Montserrat";
+  width: 35vw;
+  height: 3vw;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: rgb(55, 197, 233);
+}
+form label {
+
+color:#f87c16f6;
+font-size: 20px;
+font-family:  'Zilla Slab', serif;
+font-weight: bold;
+}
+
+form button {
+
+  width: 25vw;
+  border-radius: 7px;
+  margin-top: 15px;
+  background-color: rgba(250, 226, 204, 0.905);
+  color: rgba(235, 55, 10, 0.973);
+  font-size: 22px;
+  font-family:  'Zilla Slab', serif;
+  font-weight: bold;
+  margin-left: 350px;
+
+}
+
+.titleForm {
+  margin-left: 290px;
+  color:rgba(250, 52, 26, 0.959);
+  font: large;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+footer {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url("https://cdn.aveine.paris/blog/wp-content/uploads/2020/07/02131449/Quel-verre-bd-1024x683.jpg");  */
+  background-color:hsla(354, 29%, 44%, 0.695);
+  background-position: center;
+  margin-top: 290px;
+  padding: 20px;
+  height: 20px;
+  border-radius: 10px;
+  opacity: .8;
+}
+
