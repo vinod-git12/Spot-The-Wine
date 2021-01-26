@@ -192,7 +192,7 @@ footer {
   .wineCard {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-     margin: 100px 60px 0px 90px;
+     margin: 100px 60px 0px 60px;
      /* width: auto; */
      justify-content: center;
   }
@@ -210,7 +210,7 @@ footer {
       .wineCard {
         display: grid;
         grid-template-columns: 1fr 1fr;
-         margin: 100px 40px 0px 120px;
+         margin: 100px 40px 0px 100px;
          /* width: auto; */
          justify-content: center;
       }
@@ -219,21 +219,13 @@ footer {
         .wineCard {
           display: grid;
           grid-template-columns: 1fr 1fr;
-           margin: 100px 0px 0px 125px;
+           margin: 100px 0px 0px 90px;
            /* width: auto; */
            justify-content: center;
            padding-right: 90px;
         }
         }
         @media screen and (max-width: 815px) {
-          .wineCard {
-            display: grid;
-            grid-template-columns: 1fr;
-             margin: 100px 50px 0px 220px;
-             /* width: auto; */
-             justify-content: center;
-             padding-right: 80px;
-          }
           .titleForm {
             margin: 20px;
             color:rgba(110, 10, 3, 0.959);
@@ -298,7 +290,7 @@ footer {
           .wineCard {
             display: grid;
             grid-template-columns: 1fr;
-             margin: 100px 50px 0px 195px;
+             margin: 100px 50px 0px 10px;
              /* width: auto; */
              justify-content: center;
              padding-right: 80px;
@@ -388,68 +380,8 @@ footer {
               opacity: .9;
             
             }
-            .titleForm {
-              margin: 20px;
-              color:rgba(110, 10, 3, 0.959);
-              font-size: 25px;
-              font-weight: 700;
-              font-family: 'Carter One', cursive;
-            }
-            .form {
-    
-              margin: 100px 50px 0px 50px;
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              align-items: center;
-              background-color: #e2e0ba;
-              background-size: auto;
-              background-position: center;
-              border: 2px solid rgb(247, 190, 144);
-              border-radius: 20px;
-            
-              
-            }
-            
-            form label, form input {
-              margin: 10px 10px 0px 0px;
-              font-family: "Montserrat";
-              width: 28vw;
-              height: 3vw;
-              box-sizing: border-box;
-              border-radius: 5px;
-              font-size: 15px;
-              color: rgb(55, 197, 233);
-            
-            }
-            form label {
-            
-            color:rgba(131, 30, 5, 0.965);
-            font-size: 17px;
-            font-family:  'Zilla Slab', serif;
-            font-weight: bold;
-            margin-top: 15px;
-            }
-            /* 
-            form input {
-              margin: 20px;
-            } */
-            
-            form button {
-            
-              width: 18vw;
-              border-radius: 7px;
-              margin-top: 25px;
-              background-color: rgba(250, 226, 204, 0.905);
-              color: rgba(97, 21, 3, 0.973);
-              font-size: 20px;
-              font-family:  'Zilla Slab', serif;
-              font-weight: bold;
-              
-            }
-          }
 
 
-            
+            }
 
 
