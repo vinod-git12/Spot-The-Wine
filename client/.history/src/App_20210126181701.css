@@ -1,0 +1,423 @@
+.backGroundImage {
+  background-image:url(https://upload.wikimedia.org/wikipedia/commons/5/5e/Wine_grapes03.jpg);
+  background-size: cover;
+  background-position: center;
+
+  
+}
+
+.title {
+  
+  opacity: .8;
+  display:flex;
+  justify-content: center;
+  color:hsl(9, 89%, 39%);
+  font-family: 'Bebas Neue', cursive;
+  font-size: 350%;
+  font-weight: 900;
+  background-color: rgb(246, 219, 178);
+  background-size: cover;
+  border: 3px solid rgb(239, 169, 108);
+  border-radius: 10px;
+  margin: 50px 50px 0px 50px;
+  background-position: center;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px 0px 40px;
+  color:hsla(7, 77%, 30%, 0.966);
+  font-size: 23px;
+  font-weight: 900;
+  font-family: 'Berkshire Swash', cursive;
+  background-color:rgba(249, 147, 51, 0.945);
+  margin: 0px 50px 0px 50px;
+  border-radius: 10px;
+  opacity: .9;
+
+}
+
+.homeImg {
+  background-image: url("https://www.setaswall.com/wp-content/uploads/2017/04/Bone-Solid-Color-Background-Wallpaper-5120x2880.png");
+  background-position: center;
+  background-size: 100%;
+  margin: 0px 50px 0px 50px;
+  border: 3px solid rgb(239, 169, 108);
+  border-radius: 10px;
+  opacity: .9;
+
+}
+
+.wineCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+   margin: 100px 20px 0px 270px;
+   justify-content: center;
+}
+
+.wineImg {
+  background-image: url("https://lh3.googleusercontent.com/proxy/GtWouEz5HQcHjYA7qvgHOyO1hI7Hv9yEKZ9LRL21sVk_PguETvFx4N6wlDGbpK-F5_9Wc6oT2kB45tb7OoseHaOTvrHiE6cA-QfqBhBxOZ9lcKKzKG_5o_bnaifhpM8yuoWp_ClWiw");
+  background-position: center;
+  background-size: auto;
+  margin: 5px auto;
+  border: 3px solid rgb(206, 97, 8);
+  border-radius: 10px;
+  width: 250px;
+  height: 300px;
+  
+  }
+
+  .showImage {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin: 160px 50px 0px 50px;
+    background-color:hsla(91, 68%, 83%, 0.966);  
+    height: 350px;
+    border: 3px solid rgb(255, 203, 155);
+    border-radius: 10px;
+  
+   
+  }
+
+  .showInfo {
+    margin-left: 0px;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 15px; 
+    
+  }
+
+  .showInfoButton {
+    font-size: 20px;
+    margin-right: 100px;
+    
+  }
+
+.form {
+  margin: 50px 200px 0px 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2e0ba;
+  background-size: auto;
+  background-position: center;
+  border: 2px solid rgb(247, 190, 144);
+  border-radius: 20px;
+}
+
+form label, form input {
+  margin: 0px 10px 0px 0px;
+  font-family: "Montserrat";
+  width: 28vw;
+  height: 2.5vw;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 20px;
+  color: rgb(55, 197, 233);
+}
+
+form label {
+color:rgba(131, 30, 5, 0.965);
+font-size: 20px;
+font-family:  'Zilla Slab', serif;
+font-weight: bold;
+margin-top: 15px;
+}
+
+form button {
+  width: 20vw;
+  border-radius: 7px;
+  margin-top: 25px;
+  background-color: rgba(250, 226, 204, 0.905);
+  color: rgba(97, 21, 3, 0.973);
+  font-size: 22px;
+  font-family:  'Zilla Slab', serif;
+  font-weight: bold;
+  
+}
+
+.titleForm {
+  margin: 20px;
+  color:rgba(110, 10, 3, 0.959);
+  font: large;
+  font-size: 45px;
+  font-weight: 900;
+  font-family: 'Carter One', cursive;
+}
+
+footer {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color:hsla(354, 88%, 66%, 0.695);
+  background-position: center;
+  margin: 260px 50px 50px 50px;
+  padding: 25px;
+  height: 20px;
+  border-radius: 10px;
+  opacity: .8;
+}
+
+@media screen and (max-width: 1280px) {
+  .wineCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 70px 80px 0px 150px;
+    justify-content: center;
+  }
+  }
+
+@media screen and (max-width: 1150px) {
+  .wineCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 70px 60px 0px 90px;
+    justify-content: center;
+  }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .wineCard {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin: 70px 40px 0px 40px;
+      justify-content: center;
+    }
+    }
+
+    @media screen and (max-width: 950px) {
+      .wineCard {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 100px 40px 0px 120px;
+        justify-content: center;
+      }
+      }
+
+      @media screen and (max-width: 897px) {
+        .wineCard {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          margin: 100px 0px 0px 125px;
+          justify-content: center;
+          padding-right: 90px;
+        }
+        }
+
+        @media screen and (max-width: 815px) {
+          .wineCard {
+            display: grid;
+            grid-template-columns: 1fr;
+            margin: 100px 50px 0px 220px;
+            justify-content: center;
+            padding-right: 80px;
+          }
+          .titleForm {
+            margin: 20px;
+            color:rgba(110, 10, 3, 0.959);
+            font-size: 25px;
+            font-weight: 700;
+            font-family: 'Carter One', cursive;
+          }
+          .form {
+            margin: 100px 50px 0px 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #e2e0ba;
+            background-size: auto;
+            background-position: center;
+            border: 2px solid rgb(247, 190, 144);
+            border-radius: 20px;
+          }
+          
+          form label, form input {
+            margin: 0px 10px 0px 0px;
+            font-family: "Montserrat";
+            width: 28vw;
+            height: 2.5vw;
+            box-sizing: border-box;
+            border-radius: 5px;
+            font-size: 20px;
+            color: rgb(55, 197, 233);
+          
+          }
+          form label {
+          color:rgba(131, 30, 5, 0.965);
+          font-size: 17px;
+          font-family:  'Zilla Slab', serif;
+          font-weight: bold;
+          margin-top: 15px;
+          }
+          form button {
+            width: 18vw;
+            border-radius: 7px;
+            margin-top: 25px;
+            background-color: rgba(250, 226, 204, 0.905);
+            color: rgba(97, 21, 3, 0.973);
+            font-size: 20px;
+            font-family:  'Zilla Slab', serif;
+            font-weight: bold;
+           }
+        }
+
+        @media screen and (max-width: 760px) {
+          .wineCard {
+            display: grid;
+            grid-template-columns: 1fr;
+            margin: 100px 50px 0px 195px;
+            justify-content: center;
+            padding-right: 80px;
+          }
+          
+          .showInfo {
+                margin-left: 0px;
+                margin-top: 50px;
+              font-size: 10px; 
+              }
+
+              .showInfoButton {
+                font-size: 10px;
+                margin-right: 100px;
+                
+              }
+          }
+
+          @media screen and (max-widt:615px){
+            
+            .showImage {
+              display: grid;
+              grid-template-columns: 1fr 1fr ;
+               margin: 150px 50px 0px 50px;
+               background-color:hsla(91, 68%, 83%, 0.966);  
+               height: 250px;
+               width: 160;
+              border: 3px solid rgb(255, 203, 155);
+              border-radius: 10px;
+              }
+            .showInfo {
+                margin-left: 0px;
+                margin-top: 50px;
+                padding: 0px;
+                font-size: 5px; 
+                }
+
+                .showInfoButton {
+                  font-size: 15px;
+                  margin-right: 100px;
+                  
+                }
+
+          }
+
+          @media screen and (max-width: 543px) {
+            .wineCard {
+              display: grid;
+              grid-template-columns: 1fr;
+               margin: 100px 50px 0px 140px;
+               /* width: auto; */
+               justify-content: center;
+               padding-right: 80px;
+            }
+            .title {
+              /* background-image: url("https://colorpalettes.net/wp-content/uploads/2019/03/cvetovaya-palitra-3983.png"); */
+              opacity: .8;
+              /* height: 2px; */
+              display:flex;
+              justify-content: center;
+              color:hsl(9, 89%, 39%);
+              font-family: 'Bebas Neue', cursive;
+              font-size: 250%;
+              font-weight: 900;
+              background-color: rgb(246, 219, 178);
+              background-size: cover;
+              border: 3px solid rgb(239, 169, 108);
+              border-radius: 10px;
+              margin: 50px 50px 0px 50px;
+              /* margin-top: 30px; */
+              background-position: center;
+              /* padding:10px; */
+              
+            }
+            nav {
+              display: flex;
+              justify-content: space-between;
+              padding: 10px 10px 0px 10px;
+              color:hsla(7, 77%, 30%, 0.966);
+              font-size: 18px;
+              font-weight: 900;
+              background-color:rgba(249, 147, 51, 0.945);
+              margin: 0px 50px 0px 50px;
+              border-radius: 10px;
+              opacity: .9;
+            
+            }
+            .titleForm {
+              margin: 20px;
+              color:rgba(110, 10, 3, 0.959);
+              font-size: 25px;
+              font-weight: 700;
+              font-family: 'Carter One', cursive;
+            }
+            .form {
+    
+              margin: 100px 50px 0px 50px;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              background-color: #e2e0ba;
+              background-size: auto;
+              background-position: center;
+              border: 2px solid rgb(247, 190, 144);
+              border-radius: 20px;
+            
+              
+            }
+            
+            form label, form input {
+              margin: 10px 10px 0px 0px;
+              font-family: "Montserrat";
+              width: 28vw;
+              height: 3vw;
+              box-sizing: border-box;
+              border-radius: 5px;
+              font-size: 15px;
+              color: rgb(55, 197, 233);
+            
+            }
+            form label {
+            
+            color:rgba(131, 30, 5, 0.965);
+            font-size: 17px;
+            font-family:  'Zilla Slab', serif;
+            font-weight: bold;
+            margin-top: 15px;
+            }
+            /* 
+            form input {
+              margin: 20px;
+            } */
+            
+            form button {
+            
+              width: 18vw;
+              border-radius: 7px;
+              margin-top: 25px;
+              background-color: rgba(250, 226, 204, 0.905);
+              color: rgba(97, 21, 3, 0.973);
+              font-size: 20px;
+              font-family:  'Zilla Slab', serif;
+              font-weight: bold;
+              
+            }
+          }
+
+
+            
+
+
