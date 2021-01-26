@@ -24,7 +24,7 @@ function App() {
 
   return (
       
-    <html className="backGroundImage">
+    <html className="">
       <div className="App">
       <header className="title">Spot The Wine  </header>
        <Nav />

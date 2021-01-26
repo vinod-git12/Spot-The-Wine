@@ -8,7 +8,6 @@ import Home from "./components/Home";
 import Form from "./components/Form";
 import Nav from "./components/Nav";
 import Review from "./components/Review";
-import Footer from "./components/Footer";
 
 function App() {
   const [images, setImages] = useState([]);
@@ -22,12 +21,18 @@ function App() {
     getData();
   }, [toggle]);
 
-  return (
-      
-    <html className="backGroundImage">
+    return (
+    <body>
       <div className="App">
       <header className="title">Spot The Wine  </header>
-       <Nav />
+
+        {/* <a className="aLink" href="" target="blank"><img src="https://portagechristianschool.org/wp-content/uploads/2019/08/png-facebook-logo-facebook-logo-png-710.png" height="30px" width="60px"></img></a> Spot The Wine */}
+        {/* <a className="aLink" href="" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" height="25px" width="50px"></img></a> */}
+    
+       
+        
+        
+        <Nav />
           <div className="homeImg">
            
               <Route exact path="/">
@@ -47,9 +52,17 @@ function App() {
               <Review key={images.id} images={images} setToggle={setToggle} />
           </Route>
         </div>
-        <Footer />
-  
-      </html>
+        
+    
+        {/* <div className="footer">
+        <footer>
+            <a className="aLink" href="" target="blank"><img src="https://logos-world.net/wp-content/uploads/2020/04/Linkedin-Symbol.png" height="30px" width="60px"></img></a> 
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvhvH4sOOw1FHfzNkp7C_XwPWzV3fNJRZgfA&usqp=CAU" height="25px" width="50px"></img> : <strong></strong>VK
+        <a className="aLink" href="" target="blank"><img src="https://cdn.iconscout.com/icon/free/png-512/github-154-675675.png" height="25px" width="50px"></img></a>
+        </footer>
+        </div> */}
+
+      </body>
     
   );
 }

@@ -9,6 +9,7 @@ import Form from "./components/Form";
 import Nav from "./components/Nav";
 import Review from "./components/Review";
 import Footer from "./components/Footer";
+import Header from "./components/Footer";
 
 function App() {
   const [images, setImages] = useState([]);
@@ -22,12 +23,13 @@ function App() {
     getData();
   }, [toggle]);
 
-  return (
-      
-    <html className="backGroundImage">
+    return (
+    <body>
       <div className="App">
-      <header className="title">Spot The Wine  </header>
-       <Nav />
+      
+        <Header />
+        
+        <Nav />
           <div className="homeImg">
            
               <Route exact path="/">
@@ -49,7 +51,7 @@ function App() {
         </div>
         <Footer />
   
-      </html>
+      </body>
     
   );
 }

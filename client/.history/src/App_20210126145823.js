@@ -22,9 +22,8 @@ function App() {
     getData();
   }, [toggle]);
 
-  return (
-      
-    <html className="backGroundImage">
+    return (
+    <h>
       <div className="App">
       <header className="title">Spot The Wine  </header>
        <Nav />
@@ -49,7 +48,7 @@ function App() {
         </div>
         <Footer />
   
-      </html>
+      </body>
     
   );
 }

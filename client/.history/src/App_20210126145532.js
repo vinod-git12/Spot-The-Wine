@@ -10,6 +10,7 @@ import Nav from "./components/Nav";
 import Review from "./components/Review";
 import Footer from "./components/Footer";
 
+
 function App() {
   const [images, setImages] = useState([]);
   const [toggle, setToggle] = useState(false)
@@ -22,12 +23,13 @@ function App() {
     getData();
   }, [toggle]);
 
-  return (
-      
-    <html className="backGroundImage">
+    return (
+    <body>
       <div className="App">
-      <header className="title">Spot The Wine  </header>
-       <Nav />
+      
+        
+        
+        <Nav />
           <div className="homeImg">
            
               <Route exact path="/">
@@ -49,7 +51,7 @@ function App() {
         </div>
         <Footer />
   
-      </html>
+      </body>
     
   );
 }

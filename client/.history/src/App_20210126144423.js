@@ -22,12 +22,18 @@ function App() {
     getData();
   }, [toggle]);
 
-  return (
-      
-    <html className="backGroundImage">
+    return (
+    <body>
       <div className="App">
       <header className="title">Spot The Wine  </header>
-       <Nav />
+
+        {/* <a className="aLink" href="" target="blank"><img src="https://portagechristianschool.org/wp-content/uploads/2019/08/png-facebook-logo-facebook-logo-png-710.png" height="30px" width="60px"></img></a> Spot The Wine */}
+        {/* <a className="aLink" href="" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" height="25px" width="50px"></img></a> */}
+    
+       
+        
+        
+        <Nav />
           <div className="homeImg">
            
               <Route exact path="/">
@@ -48,8 +54,9 @@ function App() {
           </Route>
         </div>
         <Footer />
-  
-      </html>
+    
+        
+      </body>
     
   );
 }
