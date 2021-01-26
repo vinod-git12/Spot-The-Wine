@@ -58,9 +58,8 @@ nav {
 .wineCard {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-   margin: 100px 20px 0px 30px;
-   /* width: auto; */
-   justify-content: center;
+   margin: 80px 40px 20px 200px;
+   width: auto;
 }
 
 .wineImg {
@@ -73,24 +72,20 @@ nav {
   border-radius: 10px;
   width: 250px;
   height: 300px;
-  
   }
 
   .showImage {
   display: grid;
   grid-template-columns: 1fr 1fr ;
-   margin: 150px 50px 0px 50px;
+   margin: 150px 600px 0px 600px;
    background-color:hsla(91, 68%, 83%, 0.966);  
    height: 350px;
-   border: 3px solid rgb(255, 203, 155);
-  border-radius: 10px;
-   
   }
 
   .showInfo {
     margin-left: 0px;
     margin-top: 50px;
-    /* width: 100%; */
+    width: 100%;
     padding: 10px;
     font-size: 15px; 
     
@@ -103,8 +98,9 @@ nav {
   }
 
 .form {
-  
-  margin: 100px 200px 0px 200px;
+  width: 100%;
+  min-width: 100%;
+  margin: 80px 20px 0px 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -112,56 +108,47 @@ nav {
   background-color: #e2e0ba;
   background-size: auto;
   background-position: center;
-  border: 2px solid rgb(247, 190, 144);
-  border-radius: 20px;
-
+  
   
 }
 
 form label, form input {
-  margin: 0px 10px 0px 0px;
+  margin-left: 350px;
   font-family: "Montserrat";
-  width: 28vw;
-  height: 2.5vw;
+  width: 35vw;
+  height: 3vw;
   box-sizing: border-box;
   border-radius: 5px;
-  font-size: 20px;
   color: rgb(55, 197, 233);
-
 }
 form label {
 
-color:rgba(131, 30, 5, 0.965);
+color:#f87c16f6;
 font-size: 20px;
 font-family:  'Zilla Slab', serif;
 font-weight: bold;
-margin-top: 15px;
 }
-/* 
-form input {
-  margin: 20px;
-} */
 
 form button {
 
-  width: 20vw;
+  width: 25vw;
   border-radius: 7px;
-  margin-top: 25px;
+  margin-top: 15px;
   background-color: rgba(250, 226, 204, 0.905);
-  color: rgba(97, 21, 3, 0.973);
+  color: rgba(235, 55, 10, 0.973);
   font-size: 22px;
   font-family:  'Zilla Slab', serif;
   font-weight: bold;
-  
+  margin-left: 350px;
+
 }
 
 .titleForm {
-  margin: 20px;
-  color:rgba(110, 10, 3, 0.959);
+  margin-left: 290px;
+  color:rgba(250, 52, 26, 0.959);
   font: large;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 900;
-  font-family: 'Carter One', cursive;
 }
 
 footer {

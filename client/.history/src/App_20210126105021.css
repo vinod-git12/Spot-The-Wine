@@ -58,7 +58,7 @@ nav {
 .wineCard {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-   margin: 100px 20px 0px 30px;
+   margin: 100px 20px 0px 120px;
    /* width: auto; */
    justify-content: center;
 }

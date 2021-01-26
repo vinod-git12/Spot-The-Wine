@@ -58,7 +58,7 @@ nav {
 .wineCard {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-   margin: 100px 20px 0px 30px;
+   margin: 80px 20px 0px 20px;
    /* width: auto; */
    justify-content: center;
 }
@@ -73,18 +73,14 @@ nav {
   border-radius: 10px;
   width: 250px;
   height: 300px;
-  
   }
 
   .showImage {
   display: grid;
   grid-template-columns: 1fr 1fr ;
-   margin: 150px 50px 0px 50px;
+   margin: 150px a;
    background-color:hsla(91, 68%, 83%, 0.966);  
    height: 350px;
-   border: 3px solid rgb(255, 203, 155);
-  border-radius: 10px;
-   
   }
 
   .showInfo {
