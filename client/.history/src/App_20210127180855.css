@@ -55,8 +55,7 @@ nav {
   grid-template-columns: 1fr 1fr 1fr;
    margin: 100px 20px 0px 270px;
    justify-content: center;
-   height: 640px;
-   overflow-y: auto;
+   height: 60px;
 }
 
 .wineImg {
@@ -156,7 +155,7 @@ footer {
   align-items: center;
   background-color:rgba(249, 147, 51, 0.945);
   background-position: center;
-  margin: 130px 50px 50px 50px;
+  margin: 260px 50px 50px 50px;
   padding: 25px;
   height: 20px;
   border-radius: 10px;
@@ -205,7 +204,7 @@ footer {
           grid-template-columns: 1fr 1fr;
           margin: 100px 0px 0px 125px;
           justify-content: center;
-          /* padding-right: 90px; */
+          padding-right: 90px;
         }
         }
 
@@ -315,14 +314,9 @@ footer {
              .wineCard {
               display: grid;
               grid-template-columns: 1fr;
-              margin: 100px 40px 0px 110px;
+              margin: 100px 50px 0px 140px;
               justify-content: center;
               padding-right: 80px;
-            }
-            .wineImg {
-              width: 177px;
-              height: 250px;
-  
             }
             .title {
               opacity: .8;
@@ -398,12 +392,7 @@ footer {
               font-family:  'Zilla Slab', serif;
               font-weight: bold;
                }
-               footer {
-                 margin-top: 40px;
-               }
              }
-
-             
 
 
             

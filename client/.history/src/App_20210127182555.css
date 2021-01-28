@@ -315,12 +315,12 @@ footer {
              .wineCard {
               display: grid;
               grid-template-columns: 1fr;
-              margin: 100px 40px 0px 110px;
+              margin: 100px 50px 0px 110px;
               justify-content: center;
               padding-right: 80px;
             }
             .wineImg {
-              width: 177px;
+              width: 179px;
               height: 250px;
   
             }
@@ -398,12 +398,7 @@ footer {
               font-family:  'Zilla Slab', serif;
               font-weight: bold;
                }
-               footer {
-                 margin-top: 40px;
-               }
              }
-
-             
 
 
             
